@@ -12,6 +12,8 @@ Testing, documentation, accessibility improvements, bug fixes and sharing the pr
 
 ## Donations
 
-An official donation destination has not yet been configured. There is currently no payment or donation collection built into this project. Contact the maintainer at **govind.csae@gmail.com** or visit [qurkos.com](https://qurkos.com/) to discuss supporting development.
+GitHub Sponsors is the selected donation platform for Govind Yadav (`GtechGovind`). Enrollment is pending; sponsorship payments are not yet available. The Sponsor button will be enabled after GitHub approves the account.
 
-Donations are optional and do not unlock extension features or guarantee support. The maintainer can add a verified payment destination to `.github/FUNDING.yml` to enable GitHub's Sponsor button.
+Until then, testing, documentation, bug reports and sharing the project are welcome ways to help. Contact **govind.csae@gmail.com** or visit [qurkos.com](https://qurkos.com/) to discuss supporting development.
+
+Donations are optional and do not unlock extension features or guarantee support. Maintainer enrollment instructions are in [GitHub Sponsors setup](docs/SPONSORS-SETUP.md).
