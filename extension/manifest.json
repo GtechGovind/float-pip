@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Float PiP",
+  "author": "Govind Yadav",
+  "homepage_url": "https://qurkos.com/",
+  "version": "1.0.0",
+  "description": "Open accessible videos in picture-in-picture with temporary tab access. Includes guidance for Firefox\u2019s built-in PiP.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Float PiP",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+P"
+      },
+      "description": "Open Float PiP controls"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  },
+  "minimum_chrome_version": "102"
+}

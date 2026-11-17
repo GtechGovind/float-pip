@@ -1,0 +1,4 @@
+# Add only a maintainer-approved donation destination.
+# See SUPPORT.md. No payment destination is configured yet.
+# github: GtechGovind  # Enable only after GitHub Sponsors enrollment.
+# custom: ["https://your-verified-donation-page.example"]

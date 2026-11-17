@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible problem with Float PiP.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include credentials, tokens or private footage. Report vulnerabilities privately using SECURITY.md."
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, operating system and Float PiP version
+      placeholder: "Chrome 157, macOS, Float PiP 1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include a public sample page if possible; remove account tokens from URLs.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context or screenshots

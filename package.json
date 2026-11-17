@@ -1,0 +1,20 @@
+{
+  "name": "float-pip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A user-activated picture-in-picture helper for desktop browsers.",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "python3 tools/build.py"
+  },
+  "license": "MIT",
+  "author": "Govind Yadav",
+  "homepage": "https://qurkos.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GtechGovind/float-pip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GtechGovind/float-pip/issues"
+  }
+}

@@ -1,0 +1,41 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Behavioral tests
+        run: node --test tests/*.test.cjs
+      - name: Build packages
+        run: python3 tools/build.py
+      - name: Package checks
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Check generated source files
+        run: git diff --exit-code -- extension/ store-assets/logo300.png
+      - name: Verify reproducible packages
+        shell: bash
+        run: |
+          cp dist/SHA256SUMS.txt /tmp/float-pip-checksums.txt
+          python3 tools/build.py
+          diff -u /tmp/float-pip-checksums.txt dist/SHA256SUMS.txt
+      - name: Upload unsigned packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: float-pip-unsigned-packages
+          path: |
+            dist/*.zip
+            dist/SHA256SUMS.txt
+          retention-days: 14
