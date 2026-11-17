@@ -2,7 +2,13 @@
 
 Selected platform: **GitHub Sponsors**, personal account **GtechGovind**, maintained by Govind Yadav for the Qurkos Float PiP project.
 
-## Enrollment
+## Status
+
+On November 17, 2026, GitHub's dashboard confirmed that the Sponsors profile was approved and public. The repository Sponsor button is configured for `GtechGovind`. Public profile: https://github.com/sponsors/GtechGovind .
+
+At verification time, GitHub separately reported that the Stripe account had been created and was undergoing verification. Public-profile approval does not confirm payout verification is complete. Manage payout/identity/tax requirements privately in GitHub's dashboard.
+
+## Enrollment reference
 
 1. Open [GitHub Sponsors accounts](https://github.com/sponsors/accounts) while signed in as GtechGovind. Choose **Get sponsored** beside the personal account.
 2. Complete GitHub's access verification privately.

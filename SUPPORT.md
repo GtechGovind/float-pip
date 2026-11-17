@@ -12,8 +12,8 @@ Testing, documentation, accessibility improvements, bug fixes and sharing the pr
 
 ## Donations
 
-GitHub Sponsors is the selected donation platform for Govind Yadav (`GtechGovind`). Enrollment is pending; sponsorship payments are not yet available. The Sponsor button will be enabled after GitHub approves the account.
+You can [sponsor Govind Yadav on GitHub Sponsors](https://github.com/sponsors/GtechGovind) to support Float PiP and Qurkos open-source development. Choose a one-time or monthly contribution and an amount that suits you.
 
-Until then, testing, documentation, bug reports and sharing the project are welcome ways to help. Contact **govind.csae@gmail.com** or visit [qurkos.com](https://qurkos.com/) to discuss supporting development.
+Sponsorship helps support maintenance, compatibility testing, accessibility and documentation. Donations are optional and do not unlock extension features or guarantee support.
 
-Donations are optional and do not unlock extension features or guarantee support. Maintainer enrollment instructions are in [GitHub Sponsors setup](docs/SPONSORS-SETUP.md).
+You can also help through testing, documentation, bug reports and sharing the project. Contact **govind.csae@gmail.com** or visit [qurkos.com](https://qurkos.com/) to discuss supporting development.

@@ -5,6 +5,7 @@
 **Keep your video nearby.** A small, privacy-focused picture-in-picture helper for desktop Chrome, Edge and Firefox, by [Govind Yadav](https://github.com/GtechGovind).
 
 [![CI](https://github.com/GtechGovind/float-pip/actions/workflows/ci.yml/badge.svg)](https://github.com/GtechGovind/float-pip/actions/workflows/ci.yml)
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/GtechGovind)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 [Qurkos](https://qurkos.com/) · [Privacy policy](https://qurkos.com/float-pip/privacy/) · [Report a bug](https://github.com/GtechGovind/float-pip/issues/new/choose) · [Contribute](CONTRIBUTING.md) · [Support the project](SUPPORT.md)
